@@ -1,7 +1,1 @@
-M300
-
-Hier passiert alles
-
-Test
-
-Hallo Paddy du lappe
+Dokumentation Modul 300 Plattformübergreifende Service
