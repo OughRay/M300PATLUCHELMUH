@@ -1,3 +1,8 @@
-Dokumentation PATLUCHELMUH 
+Dokumentation vom Team PATLUCHELMUH über das Modul 300 Plattformübergreifende Service 
 
-Hoi ouu
+Team: *Luca Miani 
+      *Patrick Schwab 
+      *XX 
+      *XX
+
+LB02
