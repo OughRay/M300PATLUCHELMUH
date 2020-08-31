@@ -22,20 +22,21 @@ Vervollständigen Sie die Vorlage und ersetzen dabei die Einträge <replace IP> 
 
 Die Konfigurationsdatei sieht in etwa so aus:
 
-````[Interface]
+```[Interface]
 Address = <replace IP>/24
 PrivateKey = <replace Key>
-
+```
 [Peer]
 PublicKey = xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
 Endpoint  = yyyyyyyyyyyyyyyyyy:518zz
-
+```
 AllowedIPs = 192.168.xx.0/24
-
+```
+```
 # This is for if you're behind a NAT and
 # want the connection to be kept alive.
 # PersistentKeepalive = 25````
-
+```
 Handelt es sich beim Client z.B. um einen Raspberry Pi, welcher für andere im VPN sichtbar sein soll, aktivieren Sie den Eintrag PersistentKeepalive bzw. kommentieren diesen aus.
 
 Vorsicht: Dadurch ist die IP-Adresse und alle Ports für alle im VPN sichtbar. Sollte in Unternehmensnetzwerken nur nach Rücksprache mit dem Sicherheitsverantwortlichen aktiviert werden.
