@@ -41,9 +41,11 @@ Handelt es sich beim Client z.B. um einen Raspberry Pi, welcher für andere im V
 **Vorsicht:** Dadurch ist die IP-Adresse und alle Ports für alle im VPN sichtbar. Sollte in Unternehmensnetzwerken nur nach Rücksprache mit dem Sicherheitsverantwortlichen aktiviert werden.
 
 Starten Sie die WireGuard Software und fügen die ergänzte Vorlage WireGuard als Tunnel hinzu:
-![](images/wireguard-add.png)
-Und aktivieren Sie den Tunnel:
-![](images/wireguard-activate.png)
 
+![](images/wireguard-add.png)
+
+Und aktivieren Sie den Tunnel:
+
+![](images/wireguard-activate.png)
 
 Die VMs sind nun mittels IP-Adresse inkl. allen Ports im VPN sichtbar.
