@@ -79,4 +79,5 @@ Weitere Befehle sind unter: https://www.vagrantup.com/docs/cli/
 
 ## Unsere Vagrant files
 
+Bis jetzt haben wir das ![](vagrant_files/ubuntu_VM.vagrant)
 
