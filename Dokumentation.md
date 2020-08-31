@@ -25,14 +25,13 @@ Die Konfigurationsdatei sieht in etwa so aus:
 ```[Interface]
 Address = <replace IP>/24
 PrivateKey = <replace Key>
-```
+
 [Peer]
 PublicKey = xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
 Endpoint  = yyyyyyyyyyyyyyyyyy:518zz
-```
+
 AllowedIPs = 192.168.xx.0/24
-```
-```
+
 # This is for if you're behind a NAT and
 # want the connection to be kept alive.
 # PersistentKeepalive = 25````
