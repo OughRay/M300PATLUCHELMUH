@@ -74,3 +74,4 @@ Die wichtigsten Befehle sind:
 |vagrant port|	Zeigt die Weitergeleiteten Ports der VM an                                                                     
 |vagrant halt|	Stoppt die laufende Virtuelle Maschine
 |vagrant destroy|	Stoppt die Virtuelle Maschine und zerstört sie.
+Weitere Befehle sind unter: https://www.vagrantup.com/docs/cli/
