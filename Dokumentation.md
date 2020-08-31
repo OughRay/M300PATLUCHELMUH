@@ -81,9 +81,11 @@ Weitere Befehle sind unter: https://www.vagrantup.com/docs/cli/
 
 Bis jetzt haben wir das 
 
-``` agrant init ubuntu/trusty64
+``` 
+agrant init ubuntu/trusty64
 sudo apt-get update
 sudo apt install apache2
 vagrant up
 ```
+
 
