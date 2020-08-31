@@ -50,7 +50,7 @@ Und aktivieren Sie den Tunnel:
 
 Die VMs sind nun mittels IP-Adresse inkl. allen Ports im VPN sichtbar.
 
-## Vagrant
+## Vagrant erklärt
 
 Vagrant ist eine Ruby-Anwendung (open-source) zum Erstellen und Verwalten von virtuellen Maschinen (VMs).
 
@@ -76,3 +76,7 @@ Die wichtigsten Befehle sind:
 |vagrant destroy|	Stoppt die Virtuelle Maschine und zerstört sie.
 
 Weitere Befehle sind unter: https://www.vagrantup.com/docs/cli/
+
+## Unsere Vagrant files
+
+
