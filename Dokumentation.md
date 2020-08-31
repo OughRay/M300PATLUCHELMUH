@@ -79,5 +79,11 @@ Weitere Befehle sind unter: https://www.vagrantup.com/docs/cli/
 
 ## Unsere Vagrant files
 
-Bis jetzt haben wir das ![](vagrant_files/ubuntu_VM.vagrant)
+Bis jetzt haben wir das 
+
+``` agrant init ubuntu/trusty64
+sudo apt-get update
+sudo apt install apache2
+vagrant up
+```
 
