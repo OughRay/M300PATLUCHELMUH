@@ -48,7 +48,7 @@ Und aktivieren Sie den Tunnel:
 
 ![](images/wireguard-activate.png)
 
-Die VMs sind nun mittels IP-Adresse inkl. allen Ports im VPN sichtbar.
+Die VMs sind nun mittels IP-Adresse inkl. allen Ports im VPN sichtbar. Zugriff auf VM mittels ssh ubuntu@X.X.X.X
 
 ## Vagrant erklärt
 
