@@ -49,3 +49,18 @@ Und aktivieren Sie den Tunnel:
 ![](images/wireguard-activate.png)
 
 Die VMs sind nun mittels IP-Adresse inkl. allen Ports im VPN sichtbar.
+
+## Vagrant
+
+Vagrant ist eine Ruby-Anwendung (open-source) zum Erstellen und Verwalten von virtuellen Maschinen (VMs).
+
+Die Ruby-Anwendung dient als Wrapper (engl. Verpackung, Umschlag) zwischen Virtualisierungssoftware wie VirtualBox, VMware und Hyper-V und Software-Konfiguration-Management-Anwendungen bzw. Systemkonfigurationswerkzeugen wie Chef, Saltstack und Puppet.
+
+**Wichtig:** Die Virtuellen Maschinen entsprechen lauffähigen Servern.
+
+##Funktionsweise & Konzepte
+
+**CLI**
+Vagrant wird über die Kommandozeile (CLI) bedient.
+
+Die wichtigsten Befehle sind:
