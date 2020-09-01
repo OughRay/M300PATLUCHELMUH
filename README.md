@@ -1,4 +1,10 @@
 # Dokumentation vom Team PATLUCHELMUH über das Modul 300 Plattformübergreifende Service 
+* Team
+* Umgebung auf der TBZ Cloud
+* VPN einrichten
+* Vagrant erklärt
+** Funktionsweise & Konzepte
+
 
 ## Team Übersicht
   * Luca Miani 
@@ -6,12 +12,12 @@
   * XX 
   * XX
 
-## LB02 Umbebung auf TBZ Cloud einrichten und Zugriff erhalten 
+## Umbebung auf TBZ Cloud einrichten und Zugriff erhalten 
 Auf jedem Client muss das VPN WireGuard installiert und konfiguriert werden.
 
 Ist die VM zugreifbar können in einem zweiten Schritt die Services, z.B. ein Web Server, mittels Portweiterleitung im Internet zur Verfügung gestellt werden.
 
-### VPN
+### VPN einrichten
 Das konventionelle VPN bezeichnet ein virtuelles privates (in sich geschlossenes) Kommunikationsnetz. Virtuell in dem Sinne, dass es sich nicht um eine eigene physische Verbindung handelt, sondern um ein bestehendes Kommunikationsnetz, das als Transportmedium verwendet wird. Das VPN dient dazu, Teilnehmer des bestehenden Kommunikationsnetzes an ein anderes Netz zu binden.
 
 Installieren von [WireGuard](https://www.wireguard.com/install/) auf dem Client, dass kann ein Notebook, Raspberry Pi o.ä. sein.
