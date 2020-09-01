@@ -91,7 +91,7 @@ Die wichtigsten Befehle sind:
 |vagrant halt|	Stoppt die laufende Virtuelle Maschine
 |vagrant destroy|	Stoppt die Virtuelle Maschine und zerstört sie.
 
-Weitere Befehle sind unter: https://www.vagrantup.com/docs/cli/
+Weitere Befehle sind unter: [Vagrant.com](https://www.vagrantup.com/docs/cli/)
 
 ## Unsere Vagrant files
 
