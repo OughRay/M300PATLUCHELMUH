@@ -19,8 +19,8 @@
 # Team Übersicht
   * Luca Miani 
   * Patrick Schwab 
-  * XX 
-  * XX
+  * Helmina
+  * Ercan
 
 # Umbebung auf TBZ Cloud einrichten und Zugriff erhalten 
 Auf jedem Client muss das VPN WireGuard installiert und konfiguriert werden.
