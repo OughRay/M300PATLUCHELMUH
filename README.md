@@ -2,22 +2,30 @@
 * Team
 * Umgebung auf der TBZ Cloud
 * VPN einrichten
-* Vagrant erklärt
+* Vagrant Erklärung
   * Funktionsweise & Konzepte
+  * Unsere Vagrant files
+  * Erklärung vom Vagrant file
+* Testing
+  * Testfälle
+  * Testergebnisse
+* Fazit
+* Reflexion
+* Wissensgewinn
 
 
-## Team Übersicht
+# Team Übersicht
   * Luca Miani 
   * Patrick Schwab 
   * XX 
   * XX
 
-## Umbebung auf TBZ Cloud einrichten und Zugriff erhalten 
+# Umbebung auf TBZ Cloud einrichten und Zugriff erhalten 
 Auf jedem Client muss das VPN WireGuard installiert und konfiguriert werden.
 
 Ist die VM zugreifbar können in einem zweiten Schritt die Services, z.B. ein Web Server, mittels Portweiterleitung im Internet zur Verfügung gestellt werden.
 
-### VPN einrichten
+# VPN einrichten
 Das konventionelle VPN bezeichnet ein virtuelles privates (in sich geschlossenes) Kommunikationsnetz. Virtuell in dem Sinne, dass es sich nicht um eine eigene physische Verbindung handelt, sondern um ein bestehendes Kommunikationsnetz, das als Transportmedium verwendet wird. Das VPN dient dazu, Teilnehmer des bestehenden Kommunikationsnetzes an ein anderes Netz zu binden.
 
 Installieren von [WireGuard](https://www.wireguard.com/install/) auf dem Client, dass kann ein Notebook, Raspberry Pi o.ä. sein.
@@ -56,7 +64,7 @@ Und aktivieren Sie den Tunnel:
 
 Die VMs sind nun mittels IP-Adresse inkl. allen Ports im VPN sichtbar. Zugriff auf VM mittels ssh ubuntu@X.X.X.X
 
-## Vagrant erklärt
+# Vagrant Erklärung
 
 Vagrant ist eine Ruby-Anwendung (open-source) zum Erstellen und Verwalten von virtuellen Maschinen (VMs).
 
@@ -94,4 +102,17 @@ sudo apt install apache2
 vagrant up
 ```
 
+## Erklärung vom Vagrant file
+
+# Testing
+
+## Testfälle
+
+## Testergebnisse
+
+# Fazit
+
+# Reflexion
+
+# Wissensgewinn
 
