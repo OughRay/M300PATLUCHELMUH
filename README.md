@@ -98,7 +98,7 @@ Weitere Befehle sind unter: https://www.vagrantup.com/docs/cli/
 Bis jetzt haben wir das 
 
 ``` 
-agrant init ubuntu/trusty64
+vagrant init ubuntu/trusty64
 sudo apt-get update
 sudo apt install apache2
 vagrant up
@@ -106,6 +106,17 @@ vagrant up
 
 ## Erklärung vom Vagrant file
 
+Initialisiert im aktuellen Verzeichnis eine Vagrant-Umgebung und erstellt, falls nicht vorhanden, ein Vagrantfile.
+`vagrant init ubuntu/trusty64`
+
+Die Ubuntu VM laded die neusten Updates runter und installiert diese.
+`sudo apt-get update`
+
+Der neuste Apache2 Dienst wird runtergeladen und installiert. 
+`sudo apt install apache2`
+
+Erzeugt und Konfiguriert eine neue Virtuelle Maschine, basierend auf dem Vagrantfile.
+`vagrant up`
 # Testing
 
 ## Testfälle
