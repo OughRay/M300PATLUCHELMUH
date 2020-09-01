@@ -3,7 +3,7 @@
 * Umgebung auf der TBZ Cloud
 * VPN einrichten
 * Vagrant erklärt
-** Funktionsweise & Konzepte
+  * Funktionsweise & Konzepte
 
 
 ## Team Übersicht
