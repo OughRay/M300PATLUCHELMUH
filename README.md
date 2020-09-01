@@ -1,4 +1,4 @@
-# Dokumentation vom Team PATLUCHELMUH über das Modul 300 Plattformübergreifende Service 
+<p align=" Dokumentation vom Team PATLUCHELMUH über das Modul 300 Plattformübergreifende Service ">#
 
 # Inhaltsverzeichnis
 * Team
