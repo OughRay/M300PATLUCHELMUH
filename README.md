@@ -1,5 +1,5 @@
 <p align="center">
-  <b>Dokumentation vom Team PATLUCHELMUH über das Modul 300 Plattformübergreifende Service:</b><br>
+  <b># Dokumentation vom Team PATLUCHELMUH über das Modul 300 Plattformübergreifende Service:</b><br>
 
 # Inhaltsverzeichnis
 * Team
