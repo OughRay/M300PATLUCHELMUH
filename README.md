@@ -126,8 +126,12 @@ Erzeugt und Konfiguriert eine neue Virtuelle Maschine, basierend auf dem Vagrant
 vagrant up
 ```
 # Testing
+Um unsere Vagrant files auch veröffentlichen wollen müssen wir sie zu erst testen. Dafür haben wir Testfälle erstellt und diese auch durchgeführt.
 
 ## Testfälle
+
+* Die Vagrant files wurden durchgeführt und die VM wurde mit dem richtigen Namen erzeugt?
+* DIe VM's wurden gestartet und die richtigen Dienste laufen?
 
 ## Testergebnisse
 
