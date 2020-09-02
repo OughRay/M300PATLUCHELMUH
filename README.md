@@ -264,6 +264,8 @@ Die Zusammenarbeit im Team war ausgezeichnet. Wir haben uns alle zuerst eingeles
 ### Erkenntnisse
 Durch diese LB habe ich gelernt, dass es essenziell ist die Zeit richtig einzuteilen. Mit einer guten Planung und einer Zeitorganisation verliert man den Überblick nicht und kann sein Projekt organisiert führen. Dies ist vor allem in einer Gruppenarbeit von grosser Bedeutung. Es wird mühsam, wenn sich die Teilnehmer nicht an die vereinbarten Termine halten, doch man hat die Übersicht und weiss, wann was fertig sein muss und kann bei den Teilnehmern nachhacken. Ich habe gelernt auf Zwischentermine hinzuarbeiten und diese auch einzuhalten. Ich habe während der Arbeit an der LB bewusst Pausen eingelegt und mir die Zeit so aufgeteilt, dass ich stets konzentriert bleiben konnte. 
 
+## Reflexion Luca Miani
+## Reflexion Patrick Schwab
 
 # Wissensstand und Gewinn der Teammitglieder
 
