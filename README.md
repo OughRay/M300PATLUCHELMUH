@@ -241,16 +241,14 @@ Um unsere Vagrant files auch veröffentlichen wollen müssen wir sie zu erst tes
 
 ## Testfälle
 
-| Die zu testende Aktion               | Erwartete Ausgabe/Aktion  | Tatsächliche Ausgabe/Aktion | 
-| -----------------------              | ------------------------- |---------------------------- |
-| .....................................| ....                      |.............................|
-| .....................................| ....                      |.............................|
-| .....................................| ....                      |.............................|
-| .....................................| ....                      |.............................|
-| .....................................| .....                     |.............................|
-
-* Die Vagrant files wurden durchgeführt und die VM wurde mit dem richtigen Namen erzeugt?
-* DIe VM's wurden gestartet und die richtigen Dienste laufen?
+| Die zu testende Aktion                                     | Erwartete Ausgabe/Aktion                                      | Tatsächliche Ausgabe/Aktion                     | 
+| -----------------------                                    | -------------------------                                     |----------------------------                     |
+| Im Browser auf 10.1.31.8 verbinden                         | Die Seite erscheint.                                          | Die Seite erscheint beim Aufruf.                |
+| Im Browser auf 10.1.31.8:8080 verbinden                    | Apache2 Ubuntu Default Page öffnet sich.                      |Apache2 Ubuntu Default Page öffnet sich.         |
+| Im Browser auf 10.1.31.8:8080/master verbinden             | /master: Apache2 Ubuntu Default Page öffnet sich              |/master: Apache2 Ubuntu Default Page öffnet sich |
+| Die Vagrant files wurden durchgeführt?                     | Wahr                                                          | Wahr                                            |
+| VM wurde mit dem richtigen Namen erzeugt?                  | Wahr                                                          |                                                 |
+| DIe VM's wurden gestartet und die richtigen Dienste laufen?| Wahr                                                          |                                                 |
 
 ## Testergebnisse
 
