@@ -1,3 +1,15 @@
 Vagrant.configure("2") do |config|
   config.vm.box = "ubuntu/trusty64"
+  sudo apt update
+  sudo apt install default-jre
+  sudo apt install screen
+  sudo ufw allow 25565
+  wget https://launcher.mojang.com/v1/objects/c5f6fb23c3876461d46ec380421e42b289789530/server.jar
+  mv server.jar minecraft_server_1.16.2.jar
+  sudo nano start_server.sh
+  java -Xms1024M -Xmx1024M -jar minecraft_server_1.16.2.jar nogui
+  
+
+
+  
 end
