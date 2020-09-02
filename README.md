@@ -22,6 +22,9 @@
   * Patrick Schwab 
   * Helmina Jusufi
   * Muhammed Ercan 
+  
+# Linux 
+Linux ist das Betriebssystem und die IT-Infrastrukturplattform. Es ist Open Source und basiert auf dem Unix-Design. Linux hat sich gut etabliert und ist nun das Betriebssystem mit der größten Benutzerbasis. Das größte Merkmal von Linux ist, dass es Open Source ist. Dies bedeutet, dass jeder die Software ausführen, freigeben und ändern kann.
 
 # Umbebung auf TBZ Cloud einrichten und Zugriff erhalten 
 Auf jedem Client muss das VPN WireGuard installiert und konfiguriert werden.
