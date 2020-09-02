@@ -246,9 +246,8 @@ Um unsere Vagrant files auch veröffentlichen wollen müssen wir sie zu erst tes
 | Im Browser auf 10.1.31.8 verbinden                         | Die Seite "m300-08-bist20 Web UI" erscheint                   | Die Seite "m300-08-bist20 Web UI" erscheint     |
 | Im Browser auf 10.1.31.8:8080 verbinden                    | Apache2 Ubuntu Default Page öffnet sich                       |Apache2 Ubuntu Default Page öffnet sich          |
 | Im Browser auf 10.1.31.8:8080/master verbinden             | /master: Apache2 Ubuntu Default Page öffnet sich              |/master: Apache2 Ubuntu Default Page öffnet sich |
-| Die Vagrant files wurden durchgeführt?                     | Wahr                                                          | Wahr                                            |
-| VM wurde mit dem richtigen Namen erzeugt?                  | Wahr                                                          | Wahr                                            |
-| DIe VM's wurden gestartet und die richtigen Dienste laufen?| Wahr                                                          | Wahr                                            |
+| Die Vagrant files wurden ausgeführt                        | VM wird installiert                                           | VM wird installiert                             |
+| DIe VM's werden gestartet                                  | Die VMs können gestartet werden und die richtigen Dienste laufen |Die VMs können gestartet werden und die richtigen Dienste laufen|
 
 ## Testergebnisse
 Der Test wurde erfolgreich abgenommen.
