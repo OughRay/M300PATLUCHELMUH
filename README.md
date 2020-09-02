@@ -153,15 +153,11 @@ Firewall-Regeln
     vagrant ssh web
     sudo ufw allow 80/tcp
     exit
-```
-```
     # Port 22 (SSH) nur für den Host (wo die VM laufen) öffnen
     vagrant ssh web
     w
     sudo ufw allow from [Meine-IP] to any port 22
     exit
-```
-```
     # Port 3306 (MySQL) nur für den web Server öffnen
     vagrant ssh database
     sudo ufw allow from [IP der Web-VM] to any port 3306
@@ -177,7 +173,7 @@ Löschen von Regeln
     $ sudo ufw status numbered
     $ sudo ufw delete 1
 ```
-Ausgehende Verbindungen
+### Ausgehende Verbindungen
 Ausgehende Verbindungen werden standardmässig erlaubt.
 
 Werden keine Ausgehenden Verbindungen benötigt oder nur bestimmte (z.B. ssh) können zuerst alle geschlossen und dann einzelne Freigeschaltet werden.
@@ -185,10 +181,10 @@ Werden keine Ausgehenden Verbindungen benötigt oder nur bestimmte (z.B. ssh) k�
     $ sudo ufw deny out to any
     $ sudo ufw allow out 22/tcp 
 ```
-Reverse Proxy
+## Reverse Proxy
 Der Apache-Webserver kann auch als Reverse Proxy eingerichtet werden.
 
-Installation Dazu müssen folgende Module installiert werden:
+***Installation*** Dazu müssen folgende Module installiert werden:
 ```
     $ sudo apt-get install libapache2-mod-proxy-html --> ist schon im apache2-bin enthalten
     $ sudo apt-get install libxml2-dev
@@ -209,20 +205,19 @@ Apache-Webserver neu starten:
     $ sudo service apache2 restart
 ```
 Konfiguration
-Die Weiterleitungen sind z.B. in sites-enabled/001-reverseproxy.conf eingetragen:
+Die Weiterleitungen sind z.B. in `sites-enabled/001-reverseproxy.conf` eingetragen:
 
-    # Allgemeine Proxy Einstellungen
 ```
+    # Allgemeine Proxy Einstellungen
     ProxyRequests Off
     <Proxy *>
         Order deny,allow
         Allow from all
     </Proxy>
-```
     # Weiterleitungen master
     ProxyPass /master http://master
     ProxyPassReverse /master http://master
-
+```
 ## Absichern der einzelnen VMs
 ## Verstecken von Servern und Services
 ## Sichere Kommunikation via SSH
