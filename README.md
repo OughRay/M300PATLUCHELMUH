@@ -1,5 +1,8 @@
 # Dokumentation vom Team PATLUCHELMUH über das Modul 300 Plattformübergreifende Service
 
+# Einleitung
+In diesem Dokument beschreiben wir unsere Arbeitsschritte von dem Einrichten der Umgebung, Erstellung der eigenen Lernumgebung, arbeiten mit Vigrant bis hin zur Implementation der Sicherheitsaspekte. 
+
 # Inhaltsverzeichnis
 * Team
 * Umgebung auf der TBZ Cloud
@@ -22,9 +25,6 @@
   * Patrick Schwab 
   * Helmina Jusufi
   * Muhammed Ercan 
-  
-# Linux 
-Linux ist das Betriebssystem und die IT-Infrastrukturplattform. Es ist Open Source und basiert auf dem Unix-Design. Linux hat sich gut etabliert und ist nun das Betriebssystem mit der größten Benutzerbasis. Das größte Merkmal von Linux ist, dass es Open Source ist. Dies bedeutet, dass jeder die Software ausführen, freigeben und ändern kann.
 
 # Umbebung auf TBZ Cloud einrichten und Zugriff erhalten 
 Auf jedem Client muss das VPN WireGuard installiert und konfiguriert werden.
