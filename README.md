@@ -31,10 +31,6 @@ In diesem Dokument beschreiben wir unsere Arbeitsschritte von dem Einrichten der
 
 Wir haben zur Einrichtung unserer Toolumgebung zuerst alle einen GitHub-Account eingerichtet. Dieser Account verwenden wir als Cloud-Speicher für unsere Dokumentation und alle anderen Dateien. Wir haben den Zugriff über die TBZ-Cloud gemacht. Auf jedem Client muss das VPN WireGuard installiert und konfiguriert werden. Da die Bereitstellung virtueller Systeme normalerweise lange dauert und auch umständlich sein kann, arbeiten wir mit Vagrant. Vagrant ist eine Anwendung, welche zur Erstellung und Verwaltung virtueller Maschinen dient und eine einfache Softwareverteilung ermöglicht. Mit Vagrant kann man eine VM schneller und unkomplizierter erstellen. (Man könnte auch eine virtuelle Maschine mit VirtualBox einrichten. Nach dem Installieren der VirtualBox kann man gemäss Angaben der Dokumentation die virtuelle Maschine erstellen. Dies dauert aber etwas länger und ist umständlicher.) Nachdem wir das Ganze eingerichtet haben, haben wir uns noch Visual Studio Code als Unterstützung geholt. Dies trägt zum effizienteren Arbeiten bei, da man alle lokalen Repositories an einem Ort verwalten kann und da auch die dazugehörigen Dateien bearbeiten kann.
 
-=======
-# Umbebung auf TBZ Cloud einrichten und Zugriff erhalten
-Auf jedem Client muss das VPN WireGuard installiert und konfiguriert werden.
->>>>>>> 014c1241beac8bdc9f859b4d3e62d7e033d62fe2
 
 Ist die VM zugreifbar können in einem zweiten Schritt die Services, z.B. ein Web Server, mittels Portweiterleitung im Internet zur Verfügung gestellt werden.
 
@@ -238,9 +234,20 @@ Die Weiterleitungen sind z.B. in sites-enabled/001-reverseproxy.conf eingetragen
 ## Sichere Kommunikation via SSH
 
 # Testing
+Tests dienen ganz einfach dazu verschiedene Dinge zu testen, bevor man das getestete verwendet. So kann man Fehler und Grenzen schon im Vorhinein finden und bei Bedarf verbessern. Jeglicher Test muss genau festgehalten werden und er muss von einer anderen Person replizierbar sein, ansonsten ist das Ergebnis des Tests wertlos.
+
 Um unsere Vagrant files auch veröffentlichen wollen müssen wir sie zu erst testen. Dafür haben wir Testfälle erstellt und diese auch durchgeführt.
 
+
 ## Testfälle
+
+| Die zu testende Aktion               | Erwartete Ausgabe/Aktion  | Tatsächliche Ausgabe/Aktion | 
+| -----------------------              | ------------------------- |---------------------------- |
+| .....................................| ....                      |.............................|
+| .....................................| ....                      |.............................|
+| .....................................| ....                      |.............................|
+| .....................................| ....                      |.............................|
+| .....................................| .....                     |.............................|
 
 * Die Vagrant files wurden durchgeführt und die VM wurde mit dem richtigen Namen erzeugt?
 * DIe VM's wurden gestartet und die richtigen Dienste laufen?
@@ -260,12 +267,13 @@ Schon am ersten Tag, war es für mich interessant in diesem Modul. Das Projekt h
 ### Arbeit
 In diesem Modul habe ich sehr viel neues kennengelernt. Beim Einrichten der Umgebung habe ich gesehen, was es für verschiedene Möglichkeiten gibt. Ich habe gelernt was VirtualBox ist, ich habe GitHub kennengelernt, zudem habe ich mich bei der Umsetzung mit Vagrant auseinandergesetzt, welches ich vorher auch noch nicht kannte. Der Lehrer war für Fragen immer offen und konnte mir auch sehr gut helfen. 
 ### Zusammenarbeit
-Die Zusammenarbeit im Team war ausgezeichnet. Wir haben uns alle zuerst eingelesen und alle Fragen im Team geklärt. Danach haben wir uns die Aufgaben aufgeteilt und haben uns alle an die Aufteilung der Aufgaben gehalten. Dies hat uns die Arbeit am Projekt sehr erleichtert. Wir können alle sehr gut miteinander umgehen. Da Muhammed Ercan, Luca Miani und ich bereits oft miteinander Projekte geführt haben und bei Schulaufträgen gemeinsam in einer Gruppe waren, fiel uns die Zusammenarbeit noch leichter. Somit sind wir sehr schnell zum Ziel gekommen und hatten keine Probleme bei der Umsetzung.
-### Erkenntnisse
-Durch diese LB habe ich gelernt, dass es essenziell ist die Zeit richtig einzuteilen. Mit einer guten Planung und einer Zeitorganisation verliert man den Überblick nicht und kann sein Projekt organisiert führen. Dies ist vor allem in einer Gruppenarbeit von grosser Bedeutung. Es wird mühsam, wenn sich die Teilnehmer nicht an die vereinbarten Termine halten, doch man hat die Übersicht und weiss, wann was fertig sein muss und kann bei den Teilnehmern nachhacken. Ich habe gelernt auf Zwischentermine hinzuarbeiten und diese auch einzuhalten. Ich habe während der Arbeit an der LB bewusst Pausen eingelegt und mir die Zeit so aufgeteilt, dass ich stets konzentriert bleiben konnte. 
+Die Zusammenarbeit im Team war ausgezeichnet. Wir haben uns alle zuerst eingelesen und alle Fragen im Team geklärt. Danach haben wir uns die Aufgaben aufgeteilt und haben uns alle an die Aufteilung der Aufgaben gehalten. Dies hat uns die Arbeit am Projekt sehr erleichtert. Wir konnten alle sehr gut miteinander umgehen. Da Muhammed Ercan, Luca Miani und ich bereits oft miteinander Projekte geführt haben und bei Schulaufträgen gemeinsam in einer Gruppe waren, fiel uns die Zusammenarbeit noch leichter. Somit sind wir sehr schnell zum Ziel gekommen und hatten keine Probleme bei der Umsetzung.
 
 ## Reflexion Luca Miani
+Obwohl ich schon ein wenig Vorwissen hatte, konnte ich in diesem Modul sehr viel neues lernen. Ich habe Vagrant sehr gut kennengelernt und kann nun gut damit umgehen. Da ich schon oft mit Linux gearbeitet habe und es sehr gerne mache, hat mir diese LB sehr Spass gemacht. Bei Problemen habe ich mich beim Lehrer oder bei meinen Teamkollegen gewendet. Die Zusammenarbeit mit Muhammed Ercan, Helmina Jusufi und Patrick Schwab war sehr gut. Wir sind gut miteinander ausgekommen, haben uns gegenseitig unterstützt und unsere Arbeiten zeitgerecht fertiggestellt. Was ich auch sehr gut fand war, dass wir mit Github gearbeitet haben und so alle jederzeit ganz einfach Zugriff darauf hatten.
+
 ## Reflexion Patrick Schwab
+Ich habe für die Zukunft gelernt, dass die Vagrant Files einen grossen Wert haben. Ausserdem weiss ich nun, dass ich im Team mehr Spass am Lernen habe als allein und es nicht darauf ankommt, ob ich mit meinen Freunden in einer Gruppe bin oder mit anderen Mitschülern, die ich weniger gut kenne. Dazu kommt, dass ich viele neue Funktionen kennenlernen durfte im Bezug auf Virtuelle Maschinen, Systemsicherheit und Vagrant Files. Das Arbeiten mit Github hat mir ausserdem auch Spass gemacht, weil man alles für jeden verfügbar hat.
 
 # Wissensstand und Gewinn der Teammitglieder
 
@@ -286,6 +294,3 @@ Mit den Themen Linux, Github, Mark Down oder der Versionsverwaltung hatte ich sc
 ## Helmina Jusufi
 
 Auch Ich habe einige Male in der Schule mit Linux gearbeitet. Zudem haben wir Testserver im Geschäft die ich selber aufsetzen durfte und auf denen ich einiges ausprobieren konnte, somit bin ich vertraut mit einigen Befehlen. Für die Systemsicherheit interssiere ich mich sehr, daher habe ich in diesem Modul viel dazulernen können. Ich kannte Github vorher noch nicht. Ich habe nur davon gehört und in diesem Modul habe ich mich zum ersten Mal richtig damit auseinandergesetzt. Auch von Vagrant habe ich zum ersten Mal gehört und konnte auch dazu neues lernen. Die Unterlagen, welche uns zur Verfügung stehen, haben mir geholfen mich schnell in dieses Modul einzulesen und gleich loszulegen. Das Arbeiten auf der TBZ Cloud empfand ich ebenfalls wie meine Teammitglieder als angenehm.
-
-
->>>>>>> 014c1241beac8bdc9f859b4d3e62d7e033d62fe2
