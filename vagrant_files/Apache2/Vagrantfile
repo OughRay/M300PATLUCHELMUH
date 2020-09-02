@@ -10,11 +10,5 @@ config.vm.provision "shell", inline: <<-SHELL
   # sudo sed -i -e"1i deb {{config.server}}/apt-mirror/mirror/archive.ubuntu.com/ubuntu xenial main restricted" /etc/apt/sources.list
   sudo apt-get update
   sudo apt-get -y install apache2
-  sudo apt-get install ufw -y
-  sudo ufw enable
-  sudo ufw deny out to any
-  sudo ufw allow out 22/tcp
-  sudo ufw allow from 10.1.31.16 to any port 22
-  sudo ufw deny 80/tcp
 SHELL
 end
