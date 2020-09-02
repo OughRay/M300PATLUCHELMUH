@@ -234,9 +234,20 @@ Die Weiterleitungen sind z.B. in sites-enabled/001-reverseproxy.conf eingetragen
 ## Sichere Kommunikation via SSH
 
 # Testing
+Tests dienen ganz einfach dazu verschiedene Dinge zu testen, bevor man das getestete verwendet. So kann man Fehler und Grenzen schon im Vorhinein finden und bei Bedarf verbessern. Jeglicher Test muss genau festgehalten werden und er muss von einer anderen Person replizierbar sein, ansonsten ist das Ergebnis des Tests wertlos.
+
 Um unsere Vagrant files auch veröffentlichen wollen müssen wir sie zu erst testen. Dafür haben wir Testfälle erstellt und diese auch durchgeführt.
 
+
 ## Testfälle
+
+| Die zu testende Aktion               | Erwartete Ausgabe/Aktion  | Tatsächliche Ausgabe/Aktion | 
+| -----------------------              | ------------------------- |---------------------------- |
+| .....................................| Wahr                      |.............................|
+| .....................................| Wahr                      |.............................|
+| .....................................| Wahr                      |.............................|
+| .....................................| Wahr                      |.............................|
+| .....................................| Wahr                      |.............................|
 
 * Die Vagrant files wurden durchgeführt und die VM wurde mit dem richtigen Namen erzeugt?
 * DIe VM's wurden gestartet und die richtigen Dienste laufen?
