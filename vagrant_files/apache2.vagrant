@@ -1,0 +1,6 @@
+vagrant init ubuntu/trusty64
+vagrant up
+vagrant ssh
+sudo apt-get update
+sudo apt-get upgrade
+sudo apt-get install apache2
