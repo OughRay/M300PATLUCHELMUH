@@ -26,7 +26,7 @@ In diesem Dokument beschreiben wir unsere Arbeitsschritte von dem Einrichten der
   * Helmina Jusufi
   * Muhammed Ercan
 
-<<<<<<< HEAD
+
 # Umbebung auf TBZ Cloud einrichten und Zugriff erhalten
 Wir haben zur Einrichtung unserer Toolumgebung zuerst alle einen GitHub-Account eingerichtet. Dieser Account verwenden wir als Cloud-Speicher für unsere Dokumentation und alle anderen Dateien. Wir haben den Zugriff über die TBZ-Cloud gemacht. Auf jedem Client muss das VPN WireGuard installiert und konfiguriert werden. Da die Bereitstellung virtueller Systeme normalerweise lange dauert und auch umständlich sein kann, arbeiten wir mit Vagrant. Vagrant ist eine Anwendung, welche zur Erstellung und Verwaltung virtueller Maschinen dient und eine einfache Softwareverteilung ermöglicht. Mit Vagrant kann man eine VM schneller und unkomplizierter erstellen. (Man könnte auch eine virtuelle Maschine mit VirtualBox einrichten. Nach dem Installieren der VirtualBox kann man gemäss Angaben der Dokumentation die virtuelle Maschine erstellen. Dies dauert aber etwas länger und ist umständlicher.) Nachdem wir das Ganze eingerichtet haben, haben wir uns noch Visual Studio Code als Unterstützung geholt. Dies trägt zum effizienteren Arbeiten bei, da man alle lokalen Repositories an einem Ort verwalten kann und da auch die dazugehörigen Dateien bearbeiten kann.
 =======
