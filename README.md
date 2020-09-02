@@ -20,8 +20,8 @@
 # Team Übersicht
   * Luca Miani 
   * Patrick Schwab 
-  * Helmina Jusufi
-  * Muhammed Ercan
+  * Helmina
+  * Ercan
 
 # Umbebung auf TBZ Cloud einrichten und Zugriff erhalten 
 Auf jedem Client muss das VPN WireGuard installiert und konfiguriert werden.
@@ -133,47 +133,51 @@ vagrant up
 
 UFW steht für Uncomplicated Firewall. Ziel von UFW ist es, ein unkompliziertes Kommandozeilen-basiertes Frontend für das sehr leistungsfähige, aber nicht gerade einfach zu konfigurierende iptables zu bieten. UFW unterstützt sowohl IPv4 als auch IPv6.
 
-#### Ausgabe der offenen Ports
+Ausgabe der offenen Ports
 ```
     $ netstat -tulpen
  ```
-#### Installation
+Installation
 ```
     $ sudo apt-get install ufw
 ```
-#### Start / Stop
+Start / Stop
 ```
     $ sudo ufw status
     $ sudo ufw enable
     $ sudo ufw disable
 ```
-#### Firewall-Regeln
+Firewall-Regeln
 ```
     # Port 80 (HTTP) öffnen für alle
     vagrant ssh web
     sudo ufw allow 80/tcp
     exit
+```
+```
     # Port 22 (SSH) nur für den Host (wo die VM laufen) öffnen
     vagrant ssh web
     w
     sudo ufw allow from [Meine-IP] to any port 22
     exit
+```
+```
     # Port 3306 (MySQL) nur für den web Server öffnen
     vagrant ssh database
     sudo ufw allow from [IP der Web-VM] to any port 3306
     exit
 ```
-#### Zugriff testen
+Zugriff testen
 ```
     $ curl -f 192.168.55.101
     $ curl -f 192.168.55.100:3306
 ```
-#### Löschen von Regeln
+Löschen von Regeln
 ```
     $ sudo ufw status numbered
     $ sudo ufw delete 1
 ```
-### Ausgehende Verbindungen
+Ausgehende Verbindungen
 Ausgehende Verbindungen werden standardmässig erlaubt.
 
 Werden keine Ausgehenden Verbindungen benötigt oder nur bestimmte (z.B. ssh) können zuerst alle geschlossen und dann einzelne Freigeschaltet werden.
@@ -181,43 +185,47 @@ Werden keine Ausgehenden Verbindungen benötigt oder nur bestimmte (z.B. ssh) k�
     $ sudo ufw deny out to any
     $ sudo ufw allow out 22/tcp 
 ```
-## Reverse Proxy
-#### Der Apache-Webserver kann auch als Reverse Proxy eingerichtet werden.
+Reverse Proxy
+Der Apache-Webserver kann auch als Reverse Proxy eingerichtet werden.
 
-***Installation*** Dazu müssen folgende Module installiert werden:
+Installation Dazu müssen folgende Module installiert werden:
 ```
     $ sudo apt-get install libapache2-mod-proxy-html --> ist schon im apache2-bin enthalten
     $ sudo apt-get install libxml2-dev
  ```
-#### Anschliessend die Module in Apache aktivieren:
+Anschliessend die Module in Apache aktivieren:
 
 ```
     $ sudo a2enmod proxy
     $ sudo a2enmod proxy_html
     $ sudo a2enmod proxy_http 
 ```
-#### Die Datei /etc/apache2/apache2.conf wie folgt ergänzen:
+Die Datei /etc/apache2/apache2.conf wie folgt ergänzen:
 ```
     ServerName localhost 
 ```
-#### Apache-Webserver neu starten:
+Apache-Webserver neu starten:
 ```
     $ sudo service apache2 restart
 ```
-#### Konfiguration
-#### Die Weiterleitungen sind z.B. in `sites-enabled/001-reverseproxy.conf` eingetragen:
+Konfiguration
+Die Weiterleitungen sind z.B. in sites-enabled/001-reverseproxy.conf eingetragen:
 
-```
     # Allgemeine Proxy Einstellungen
+```
     ProxyRequests Off
     <Proxy *>
         Order deny,allow
         Allow from all
     </Proxy>
+```
     # Weiterleitungen master
     ProxyPass /master http://master
     ProxyPassReverse /master http://master
-```
+
+## Absichern der einzelnen VMs
+## Verstecken von Servern und Services
+## Sichere Kommunikation via SSH
 
 # Testing
 Um unsere Vagrant files auch veröffentlichen wollen müssen wir sie zu erst testen. Dafür haben wir Testfälle erstellt und diese auch durchgeführt.
@@ -235,5 +243,18 @@ Mit Vagrant files können VM's schnell Aufgebaut werden so wie auch ganze Netzwe
 
 # Reflexion
 
-# Wissensgewinn
+# Wissensstand und Gewinn der Teammitglieder 
+
+## Luca Miani: 
+
+Ich arbeite ab und zu im Geschäft mit Linux. Ausserdem habe ich Zuhause mehrere Linux Server. Daher behaupte ich, dass ich sicherlich Kentnisse habe mit Linux. Einen eigenen Gitbun Acount hatte ich schon vor diesem Modul. Jedoch hatte ich am Anfang dieses Moduls auch keine Erfahrungen mit Vagrant Files. Dies lernte ich jedoch im Laufe dieses Projektes kennen. Dazu lies ich verschiedene Beiträge und machte mich schlau auf Github. Ausserdem konnte ich bei Fragen immer wieder mein Team fragen, welche mir auch weiterhilf. Das Arbeiten auf der TBZ Cloud entfand ich als angenehm.  Ich konnte ausserdem einiges lernen im Bereich Systemsicherheit. In das Thema SSH habe ich mich ein wenig vertieft und konnte somit auch dies so im Projekt einsetzen. 
+
+## Muhammed Ercan 
+
+Im Geschäft arbeite ich mehrheitlich mit Macs. Weil Mac OS und Linux sehr ähnlich sind, hatte ich schon einige Erfahrungen mit Linux. Ausserdem habe ich mehrere Server mit Linux aufgesetzt und diese betrieben. Des weiteren habe ich noch einige Services drauf lauffen lassen. Jedoch hatte ich noch vor dem Modul keinen Github Account. Daher schaute ich am Anfang einige Blogs zu Github. Daher kamen mit der Zeit Ketnisse auch über Mark Down und Github. Ich habe zusammen mit Helmina Jusufi im Modul Systemsicherheit gearbeitet. Daher hatten wir von diesem Modul auch Erfahrungen mit der Sicherheit eines Systems. Zu den verschiedenen Vagrant Files habe ich nicht viel gewusst, daher konnte ich auch einiges zu den Vagrant-Files dazulernen. Ausserdem hat mir das Arbeiten auf TBZ Cloud gefallen. 
+
+## Patrick Schwab
+
+Mit den Themen Linux, Github, Mark Down oder der Versionsverwaltung hatte ich schon zuvor Kentnisse. Ich arbeite privat mit den genannten Themen. Jedoch muss ich sagen, dass ich über eine längere Zeit hinweg nicht mehr auf Github war. Daher habe ich einige coole Funnktionen schon vergessen. Wobei mit der Zeit auf Github dies wieder aufkam. Ich habe viel über Container gelernt und selbst gesehen welche Vorteile dies gegen den normalen VM hat. Ich finde Git macht in vielen Anwendungsbereichen viel Sinn und werde versuchen, dies in Zukunft mehr zu gebrauchen. Was mir auch gefallen hat, ist das Arbeiten mit diesem Team. Jeder hatte jeden respektiert und wir haben alle gut arbeiten können. 
+
 
