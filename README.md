@@ -251,7 +251,7 @@ Um unsere Vagrant files auch veröffentlichen wollen müssen wir sie zu erst tes
 | DIe VM's wurden gestartet und die richtigen Dienste laufen?| Wahr                                                          | Wahr                                            |
 
 ## Testergebnisse
-Der Test wird erfolgreich abgenommen.
+Der Test wurde erfolgreich abgenommen.
 # Fazit
 
 Mit Vagrant files können VM's schnell Aufgebaut werden so wie auch ganze Netzwerk Umgebungen. Duch Vagrant files können vor konfigurierte VM's und ganze Umgebungen einfach weitergegeben werden.
