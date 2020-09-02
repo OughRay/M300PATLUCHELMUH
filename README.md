@@ -8,6 +8,7 @@
   * Funktionsweise & Konzepte
   * Unsere Vagrant files
   * Erklärung vom Vagrant file
+* Sicherheit
 * Testing
   * Testfälle
   * Testergebnisse
@@ -125,6 +126,37 @@ Erzeugt und Konfiguriert eine neue Virtuelle Maschine, basierend auf dem Vagrant
 ```
 vagrant up
 ```
+
+# Sicherheit
+
+## Firewall/ Rever
+
+
+```
+sudo ufw enable
+
+```
+
+```
+sudo ufw allow 80/tcp
+
+```
+
+```
+sudo ufw allow from 10.0.X.X\to any port 22
+
+```
+
+```
+
+10.0.2.2 interner Vagrant Netzwerk Adapter!
+
+```
+
+## Absichern der einzelnen VMs
+## Verstecken von Servern und Services
+## Sichere Kommunikation via SSH
+
 # Testing
 Um unsere Vagrant files auch veröffentlichen wollen müssen wir sie zu erst testen. Dafür haben wir Testfälle erstellt und diese auch durchgeführt.
 
