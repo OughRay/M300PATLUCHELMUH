@@ -1,7 +1,7 @@
 # Dokumentation vom Team PATLUCHELMUH über das Modul 300 Plattformübergreifende Service
 
 # Einleitung
-In diesem Dokument beschreiben wir unsere Arbeitsschritte von dem Einrichten der Umgebung, Erstellung der eigenen Lernumgebung, arbeiten mit Vigrant bis hin zur Implementation der Sicherheitsaspekte. 
+In diesem Dokument beschreiben wir unsere Arbeitsschritte von dem Einrichten der Umgebung, Erstellung der eigenen Lernumgebung, arbeiten mit Vagrant bis hin zur Implementation der Sicherheitsaspekte. 
 
 # Inhaltsverzeichnis
 * Team
