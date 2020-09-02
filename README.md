@@ -133,21 +133,21 @@ vagrant up
 
 UFW steht für Uncomplicated Firewall. Ziel von UFW ist es, ein unkompliziertes Kommandozeilen-basiertes Frontend für das sehr leistungsfähige, aber nicht gerade einfach zu konfigurierende iptables zu bieten. UFW unterstützt sowohl IPv4 als auch IPv6.
 
-Ausgabe der offenen Ports
+#### Ausgabe der offenen Ports
 ```
     $ netstat -tulpen
  ```
-Installation
+#### Installation
 ```
     $ sudo apt-get install ufw
 ```
-Start / Stop
+#### Start / Stop
 ```
     $ sudo ufw status
     $ sudo ufw enable
     $ sudo ufw disable
 ```
-Firewall-Regeln
+#### Firewall-Regeln
 ```
     # Port 80 (HTTP) öffnen für alle
     vagrant ssh web
@@ -163,12 +163,12 @@ Firewall-Regeln
     sudo ufw allow from [IP der Web-VM] to any port 3306
     exit
 ```
-Zugriff testen
+#### Zugriff testen
 ```
     $ curl -f 192.168.55.101
     $ curl -f 192.168.55.100:3306
 ```
-Löschen von Regeln
+#### Löschen von Regeln
 ```
     $ sudo ufw status numbered
     $ sudo ufw delete 1
