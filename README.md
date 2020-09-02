@@ -182,30 +182,30 @@ Werden keine Ausgehenden Verbindungen benötigt oder nur bestimmte (z.B. ssh) k�
     $ sudo ufw allow out 22/tcp 
 ```
 ## Reverse Proxy
-Der Apache-Webserver kann auch als Reverse Proxy eingerichtet werden.
+#### Der Apache-Webserver kann auch als Reverse Proxy eingerichtet werden.
 
 ***Installation*** Dazu müssen folgende Module installiert werden:
 ```
     $ sudo apt-get install libapache2-mod-proxy-html --> ist schon im apache2-bin enthalten
     $ sudo apt-get install libxml2-dev
  ```
-Anschliessend die Module in Apache aktivieren:
+#### Anschliessend die Module in Apache aktivieren:
 
 ```
     $ sudo a2enmod proxy
     $ sudo a2enmod proxy_html
     $ sudo a2enmod proxy_http 
 ```
-Die Datei /etc/apache2/apache2.conf wie folgt ergänzen:
+#### Die Datei /etc/apache2/apache2.conf wie folgt ergänzen:
 ```
     ServerName localhost 
 ```
-Apache-Webserver neu starten:
+#### Apache-Webserver neu starten:
 ```
     $ sudo service apache2 restart
 ```
-Konfiguration
-Die Weiterleitungen sind z.B. in `sites-enabled/001-reverseproxy.conf` eingetragen:
+#### Konfiguration
+#### Die Weiterleitungen sind z.B. in `sites-enabled/001-reverseproxy.conf` eingetragen:
 
 ```
     # Allgemeine Proxy Einstellungen
@@ -218,9 +218,6 @@ Die Weiterleitungen sind z.B. in `sites-enabled/001-reverseproxy.conf` eingetrag
     ProxyPass /master http://master
     ProxyPassReverse /master http://master
 ```
-## Absichern der einzelnen VMs
-## Verstecken von Servern und Services
-## Sichere Kommunikation via SSH
 
 # Testing
 Um unsere Vagrant files auch veröffentlichen wollen müssen wir sie zu erst testen. Dafür haben wir Testfälle erstellt und diese auch durchgeführt.
