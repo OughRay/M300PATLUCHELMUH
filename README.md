@@ -265,7 +265,9 @@ Die Zusammenarbeit im Team war ausgezeichnet. Wir haben uns alle zuerst eingeles
 Durch diese LB habe ich gelernt, dass es essenziell ist die Zeit richtig einzuteilen. Mit einer guten Planung und einer Zeitorganisation verliert man den Überblick nicht und kann sein Projekt organisiert führen. Dies ist vor allem in einer Gruppenarbeit von grosser Bedeutung. Es wird mühsam, wenn sich die Teilnehmer nicht an die vereinbarten Termine halten, doch man hat die Übersicht und weiss, wann was fertig sein muss und kann bei den Teilnehmern nachhacken. Ich habe gelernt auf Zwischentermine hinzuarbeiten und diese auch einzuhalten. Ich habe während der Arbeit an der LB bewusst Pausen eingelegt und mir die Zeit so aufgeteilt, dass ich stets konzentriert bleiben konnte. 
 
 ## Reflexion Luca Miani
+
 ## Reflexion Patrick Schwab
+Ich habe für die Zukunft gelernt, dass die Vagrant Files einen grossen Wert haben. Ausserdem weiss ich nun, dass ich im Team mehr Spass am Lernen habe als allein und es nicht darauf ankommt, ob ich mit meinen Freunden in einer Gruppe bin oder mit anderen Mitschülern, die ich weniger gut kenne. Dazu kommt, dass ich viele neue Funktionen kennenlernen durfte im Bezug auf Virtuelle Maschinen, Systemsicherheit und Vagrant Files. Das Arbeiten mit Github hat mir ausserdem auch Spass gemacht, weil man alles für jeden verfügbar hat.
 
 # Wissensstand und Gewinn der Teammitglieder
 
@@ -286,6 +288,3 @@ Mit den Themen Linux, Github, Mark Down oder der Versionsverwaltung hatte ich sc
 ## Helmina Jusufi
 
 Auch Ich habe einige Male in der Schule mit Linux gearbeitet. Zudem haben wir Testserver im Geschäft die ich selber aufsetzen durfte und auf denen ich einiges ausprobieren konnte, somit bin ich vertraut mit einigen Befehlen. Für die Systemsicherheit interssiere ich mich sehr, daher habe ich in diesem Modul viel dazulernen können. Ich kannte Github vorher noch nicht. Ich habe nur davon gehört und in diesem Modul habe ich mich zum ersten Mal richtig damit auseinandergesetzt. Auch von Vagrant habe ich zum ersten Mal gehört und konnte auch dazu neues lernen. Die Unterlagen, welche uns zur Verfügung stehen, haben mir geholfen mich schnell in dieses Modul einzulesen und gleich loszulegen. Das Arbeiten auf der TBZ Cloud empfand ich ebenfalls wie meine Teammitglieder als angenehm.
-
-
->>>>>>> 014c1241beac8bdc9f859b4d3e62d7e033d62fe2
