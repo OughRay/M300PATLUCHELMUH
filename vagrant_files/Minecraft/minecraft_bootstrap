@@ -2,7 +2,7 @@
 sudo apt update
 sudo apt install openjdk-8-jre-headless
 ufw allow 25565
-WORK_DIR ='/opt/minecraft' 
+WORK_DIR='minecraft' 
 mkdir ${WORK_DIR}
 cd ${WORK_DIR}
 wget https://launcher.mojang.com/v1/objects/c5f6fb23c3876461d46ec380421e42b289789530/server.jar
