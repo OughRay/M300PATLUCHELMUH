@@ -6,12 +6,14 @@ WORK_DIR='minecraft'
 mkdir ${WORK_DIR}
 cd ${WORK_DIR}
 wget https://launcher.mojang.com/v1/objects/c5f6fb23c3876461d46ec380421e42b289789530/server.jar
-cat > ${WORK_DIR}/eula.txt <<EULA
+touch /${WORK_DIR}/eula.txt
+cat > /${WORK_DIR}/eula.txt <<EULA
 # By changing the setting below to TRUE you are indicating your agreement to our EULA (https://account.mojang.com/documents/minecraft_eula).
 eula=TRUE
 EULA
-cat > ${WORK_DIR}/start.sh <<START
+touch /${WORK_DIR}/start.sh
+cat > /${WORK_DIR}/start.sh <<START
 java -Xmx1024M -Xms1024M -jar server.jar nogui
 START
-chmod +x start.sh
-./start.sh
+chmod +x /${WORK_DIR}/start.sh
+./${WORK_DIR}/start.sh
