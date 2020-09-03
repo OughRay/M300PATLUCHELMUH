@@ -16,4 +16,5 @@ cat > ${WORK_DIR}/start.sh <<START
 screen -dmS minecraft java -Xms1024M -Xmx1024M -jar server.jar nogui
 START
 chmod +x ${WORK_DIR}/start.sh
+echo "Your Minecraft Server is online please use IP __10.1.31.8:25565__"
 sh ${WORK_DIR}/start.sh
