@@ -13,7 +13,7 @@ eula=TRUE
 EULA
 touch ${WORK_DIR}/start.sh
 cat > ${WORK_DIR}/start.sh <<START
-java -Xmx1024M -Xms1024M -jar server.jar nogui
+screen -dmS minecraft java -Xms1024M -Xmx1024M -jar server.jar nogui
 START
 chmod +x ${WORK_DIR}/start.sh
 sh ${WORK_DIR}/start.sh
