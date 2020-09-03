@@ -1,6 +1,6 @@
 #!/bin/bash
-apt update
-apt install openjdk-8-jre-headless
+sudo apt update
+sudo apt install openjdk-8-jre-headless
 ufw allow 25565
 WORK_DIR ='/opt/minecraft' 
 mkdir ${WORK_DIR}
