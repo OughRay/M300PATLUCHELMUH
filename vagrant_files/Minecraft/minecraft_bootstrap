@@ -1,6 +1,6 @@
 #!/bin/bash
-sudo apt update
-sudo apt install openjdk-8-jre-headless
+sudo apt update -y
+sudo apt install openjdk-8-jre-headless -y
 ufw allow 25565
 WORK_DIR='/home/vagrant/minecraft' 
 mkdir ${WORK_DIR}
@@ -16,4 +16,4 @@ cat > ${WORK_DIR}/start.sh <<START
 java -Xmx1024M -Xms1024M -jar server.jar nogui
 START
 chmod +x ${WORK_DIR}/start.sh
-.${WORK_DIR}/start.sh
+sh ${WORK_DIR}/start.sh
