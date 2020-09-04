@@ -113,27 +113,8 @@ vagrant up
 
 ## Erklärung vom Vagrant file
 
-Alle Vagrantfiles werden in den Ordner: [Minecraft](vagrant_files/Minecraft/) Apache2 und VM erklärt.
+Alle Vagrantfiles werden in den Ordner: [Minecraft](vagrant_files/Minecraft/) [Apache2](vagrant_files/Apache2/) und [VM](vagrant_files/VM/) erklärt.
 
-Initialisiert im aktuellen Verzeichnis eine Vagrant-Umgebung und erstellt, falls nicht vorhanden, ein Vagrantfile.
-```
-vagrant init ubuntu/trusty64
-```
-
-Die Ubuntu VM laded die neusten Updates runter und installiert diese.
-```
-sudo apt-get update
-```
-
-Der neuste Apache2 Dienst wird runtergeladen und installiert.
-```
-sudo apt install apache2
-```
-
-Erzeugt und Konfiguriert eine neue Virtuelle Maschine, basierend auf dem Vagrantfile.
-```
-vagrant up
-```
 
 # Sicherheit
 
