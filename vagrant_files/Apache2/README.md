@@ -1,3 +1,5 @@
+# Erklärung zum Vagrant file Apache2
+
 Initialisiert im aktuellen Verzeichnis eine Vagrant-Umgebung und erstellt, falls nicht vorhanden, ein Vagrantfile.
 ```
 vagrant init ubuntu/trusty64
