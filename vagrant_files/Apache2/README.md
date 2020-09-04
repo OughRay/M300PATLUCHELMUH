@@ -8,11 +8,6 @@ Vagrant.configure(2) do |config|
 
 ```
 
-Initialisiert im aktuellen Verzeichnis eine Vagrant-Umgebung und erstellt, falls nicht vorhanden, ein Vagrantfile.
-```
-vagrant init ubuntu/trusty64
-```
-
 Diese Zeile beschreibt welches OS installiert werden soll und welche Bit verion genutz werden soll, also Ubuntu 16.04 mit der 64 Bit version.  
 ```
 config.vm.box = "ubuntu/xenial64"
