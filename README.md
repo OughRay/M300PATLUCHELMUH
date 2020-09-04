@@ -113,6 +113,8 @@ vagrant up
 
 ## Erklärung vom Vagrant file
 
+Alle Vagrantfiles werden in den Ordner: Minecraft Apache2 und VM erklärt.
+
 Initialisiert im aktuellen Verzeichnis eine Vagrant-Umgebung und erstellt, falls nicht vorhanden, ein Vagrantfile.
 ```
 vagrant init ubuntu/trusty64
