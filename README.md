@@ -102,25 +102,13 @@ Weitere Befehle sind unter: [Vagrant.com](https://www.vagrantup.com/docs/cli/)
 
 ## Unsere Vagrant files
 
-Bis jetzt haben wir das
-
-Alle Vagrantfiles können Sie in den Ordnern: [Minecraft](vagrant_files/Minecraft/) [Apache2](vagrant_files/Apache2/) und [VM](vagrant_files/VM/) erklärt.
-
-
-```
-vagrant init ubuntu/trusty64
-sudo apt-get update
-sudo apt install apache2
-vagrant up
-```
+Alle Vagrantfiles können Sie in den Ordnern: [Minecraft](vagrant_files/Minecraft/) [Apache2](vagrant_files/Apache2/) und [VM](vagrant_files/VM/) finden.
 
 ## Erklärung von Vagrant files
 
 Alle Vagrantfiles werden in den Ordnern: [Minecraft](vagrant_files/Minecraft/), [Apache2](vagrant_files/Apache2/), und [VM](vagrant_files/VM/) erklärt.
 
-
 # Sicherheit
-
 ## UFW Firewall
 
 UFW steht für Uncomplicated Firewall. Ziel von UFW ist es, ein unkompliziertes Kommandozeilen-basiertes Frontend für das sehr leistungsfähige, aber nicht gerade einfach zu konfigurierende iptables zu bieten. UFW unterstützt sowohl IPv4 als auch IPv6.
