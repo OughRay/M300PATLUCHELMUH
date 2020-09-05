@@ -1,6 +1,6 @@
 # Erklärung zum Vagrant file Minecraft
 
-Mitels dem Vagrantfile und dem minecraft_bootstrap kann ein Minecraft Server in unter 5 Minuten erstellt werden.
+Mitels dem Vagrantfile und dem minecraft_bootstrap kann ein Minecraft Server in unter 5 Minuten erstellt werden. Nach dem man unsere zwei files heruntergeladen hat und auf der maschiene seiner wahl ausgeführt hat kann man auf den Minecraft server joinen, benutzen sie hinter ihrer IP Adresse den Port 25565.
 
 ### Was benötigt wird: 
   * Eine Maschiene mit Vagrant 
