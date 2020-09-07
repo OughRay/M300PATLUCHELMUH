@@ -229,7 +229,8 @@ Um unsere Vagrant files auch veröffentlichen wollen müssen wir sie zu erst tes
 
 | Die zu testende Aktion                                     | Erwartete Ausgabe/Aktion                                      | Tatsächliche Ausgabe/Aktion                     | 
 | -----------------------                                    | -------------------------                                     |----------------------------                     |
-| VM soll mit Befehl "vagrant up" richtig erstellt werden    | Die VM wird richtig erstellt, alle Konfigurationen werden richtig erstellt und Software wird installiert| Die VM wurde richtig erstell tund die Konfiguration plus Software wurde installiert. | 
+| VM soll mit Befehl "vagrant up" richtig erstellt werden    | Die VM wird richtig erstellt, alle Konfigurationen werden richtig erstellt und Software wird installiert| Die VM wurde richtig erstellt und die Konfiguration, plus Software wurde installiert | 
+| Man kann im Game "Minecraft" mit der IP und dem Port 25565 auf den Minecraft Server beitreten | Ohne Fehlermeldung auf den Server beitereten und spielen könnn | Man kann den Server ohne Probleme betreten und mit seinen Freunde Spielen| 
 
 
 ## Testergebnisse
