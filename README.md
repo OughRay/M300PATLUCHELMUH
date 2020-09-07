@@ -215,6 +215,8 @@ Um unsere Vagrant files auch veröffentlichen wollen müssen wir sie zu erst tes
 
 ## Testfälle
 
+### Testfall für VM 
+
 | Die zu testende Aktion                                     | Erwartete Ausgabe/Aktion                                      | Tatsächliche Ausgabe/Aktion                     | 
 | -----------------------                                    | -------------------------                                     |----------------------------                     |
 | Im Browser auf 10.1.31.8 verbinden                         | Die Seite "m300-08-bist20 Web UI" erscheint                   | Die Seite "m300-08-bist20 Web UI" erscheint     |
@@ -223,7 +225,15 @@ Um unsere Vagrant files auch veröffentlichen wollen müssen wir sie zu erst tes
 | Die Vagrant files wurden ausgeführt                        | VM wird installiert                                           | VM wird installiert                             |
 | Die VM's werden gestartet                                  | Die VMs können gestartet werden und die richtigen Dienste laufen |Die VMs können gestartet werden und die richtigen Dienste laufen|
 
+### Testfall für Minecraft 
+
+| Die zu testende Aktion                                     | Erwartete Ausgabe/Aktion                                      | Tatsächliche Ausgabe/Aktion                     | 
+| -----------------------                                    | -------------------------                                     |----------------------------                     |
+| VM soll mit Befehl "vagrant up" richtig erstellt werden    | Die VM wird richtig erstellt, alle Konfigurationen werden richtig erstellt und Software wird installiert| Die VM wurde richtig erstell tund die Konfiguration plus Software wurde installiert. | 
+
+
 ## Testergebnisse
+
 Der Test wurde erfolgreich abgenommen.
 # Fazit
 
