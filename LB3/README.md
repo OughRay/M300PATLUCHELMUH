@@ -5,6 +5,8 @@ In diesem Dokument beschreiben wir die Arbeit von der LB3.
 
 # Inhaltsverzeichnis
 * Was ist Docker
-    * Anweisungen Dockerfile
+    * Docker Befehle
 * Was ist Kubernetes
-* 
+* Unser Docker Projekt
+* Unser Kubernetes Projekt
+
