@@ -8,15 +8,15 @@ Die Logins sehen aktuell wie folgt aus:
 
 | Username  | Password |
 |:---------:|:--------:|
-|   root    |   m300   |
-| nextcloud |   m300   |
+|   root    |   M300   |
+| nextcloud |   M300   |
 
 
 * Nextcloud Benutzer:
 
 | Username  | Password |
 |:---------:|:--------:|
-|   admin   |   m300   |
+|   admin   |   M300   |
 
 
 Dieses Docker-Compose File kann mit folgendem Befehl ausgeführt werden:
