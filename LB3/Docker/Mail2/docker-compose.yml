@@ -4,7 +4,7 @@ php:
     - php_db:mysql
     - maildev:maildev
   ports:
-    - 8080:80
+    - 4321:80
 
 php_db:
   image: mariadb
@@ -16,7 +16,7 @@ phpmyadmin:
   links:
     - php_db:db
   ports:
-    - 8181:80
+    - 8765:80
   environment:
     PMA_USER: root
     PMA_PASSWORD: examplepass
@@ -25,4 +25,4 @@ phpmyadmin:
 maildev:
   image: djfarrelly/maildev
   ports:
-   - 8282:80
+   - 9876:80
