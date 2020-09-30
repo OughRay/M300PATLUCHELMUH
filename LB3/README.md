@@ -45,7 +45,27 @@ Kubernetes ist ein Open-Source-System zur Automatisierung der Bereitstellung, Sk
 
 # Umgebung K1
 
-Wir haben auf dem 
+K1
+# Umgebung
+Für unsere Umgebung benutzen wir ProxMox VE das auf einem Server bei Luca zu Hause installiert ist. So können wir direkt Container erstellen und haben keine Einschränkungen an Leistung.
+# VirtualBox
+Musste nicht installiert werden, da wir ProxMox benutzen
+# Vagrant
+War schon aus der vorherigen LB2 installiert
+# Visualstudio-Code
+Wurde auf den Clients unseres Teams installiert
+# Git-Client
+Wurde auf den Clients unseres Teams installiert
+# SSH-Key für Client erstellt
+1.	SSH Key erstellen
+•	Key wird erstellt
+ 
+•	Namen des Files ermitteln
+ 
+•	Den Inhalt über Cat aufrufen und den Key Kopieren
+ 
+2.	SSH key auf Github hinzufügen
+•	Unter SSH keys den kopierten Code einfügen.
 
 
 ### Testfall für Apache 2 
