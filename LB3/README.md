@@ -66,17 +66,15 @@ Wurde auf den Clients unseres Teams installiert
 # K2
 ## GitHub oder Gitlab-Account ist erstellt
 ## Github Accounts wurde von allen 3 Gruppenmitglieder erstellt. Unsere Benutzernamen sind folgende
-•	Luca Miani - @oughray
-•	Patrick Schwab - @psychodellic
-•	Helmina Jusufi - @helminajusufi
-•	Muhammed Ercan - @Muhammedercan
+* Luca Miani - @oughray
+* Patrick Schwab - @psychodellic
+* Helmina Jusufi - @helminajusufi
+* Muhammed Ercan - @Muhammedercan
 ## Git-Client wurde verwendet
 1.	SSH key-Link in die Konsole einfügen
-•	In der Konsole den den git clone befehl ausführen.
- 
-•	Mit den richtigen logindaten anmelden.
- 
-•	(In der VM Console) Unter Source Controll das Repository Stagen und hinzufügen
+* In der Konsole den den git clone befehl ausführen.
+* Mit den richtigen logindaten anmelden.
+* (In der VM Console) Unter Source Controll das Repository Stagen und hinzufügen
 ## Persönlicher Wissenstand im Bezug auf die wichtigsten Themen ist dokumentiert (Containerisierung / Docker, Microservices)
 ### Luca Miani
 Ich arbeite ab und zu im Geschäft mit Linux. Ausserdem habe ich Zuhause mehrere Linux Server. Daher behaupte ich, dass ich sicherlich Kenntnisse habe mit Linux. Einen eigenen Github Acount hatte ich schon vor diesem Modul. Jedoch hatte ich am Anfang dieses Moduls auch keine Erfahrungen mit Vagrant. Dies lernte ich jedoch im Laufe dieses Projektes kennen. Dazu lies ich verschiedene Beiträge und machte mich schlau auf Github. Ausserdem konnte ich bei Fragen immer wieder mein Team fragen, welches mir auch weiterhilf. Das Arbeiten auf der TBZ Cloud fand ich sehr angenehm. Ich konnte ausserdem einiges lernen im Bereich Systemsicherheit. In das Thema SSH habe ich mich ein wenig vertieft und konnte somit auch dies so im Projekt einsetzen.
@@ -84,7 +82,7 @@ Ich arbeite ab und zu im Geschäft mit Linux. Ausserdem habe ich Zuhause mehrere
 Im Geschäft arbeite ich mehrheitlich mit Macs. Weil Mac OS und Linux sehr ähnlich sind, hatte ich schon einige Erfahrungen mit Linux. Ausserdem habe ich mehrere Server mit Linux aufgesetzt und diese betrieben. Des weiteren habe ich noch einige Services drauf lauffen lassen. Jedoch hatte ich noch vor dem Modul keinen Github Account. Daher schaute ich am Anfang einige Blogs zu Github. Daher kamen mit der Zeit Kentnisse auch über Mark Down und Github. Ich habe zusammen mit Helmina Jusufi im Modul Systemsicherheit gearbeitet. Daher hatten wir von diesem Modul auch Erfahrungen mit der Sicherheit eines Systems. Zu den verschiedenen Vagrant Files habe ich nicht viel gewusst, daher konnte ich auch einiges zu den Vagrant-Files dazulernen. Ausserdem hat mir das Arbeiten auf TBZ Cloud gefallen.
 ### Patrick Schwab
 Mit den Themen Linux hatte ich schon zuvor zutuhn, doch mit Github oder ähnliche Systeme hatte ich zuvor noch nie gearbeitet. Ich habe privat schon mit Linux gearbeitet. Jedoch muss ich sagen, dass ich über eine längere Zeit hinweg nicht mehr damit gearbeitet habe. Daher habe ich einige coole Funnktionen schon vergessen. Mit Github hatte ich am anfang Problem edoch danach gieng es sehr einfach, da ich mir mehrere Tutorials und Dokus angeschaut und durchgelesen habe. Ich habe viel über Container gelernt und selbst gesehen welche Vorteile dies gegen den normalen VM hat. Ich finde Git macht in vielen Anwendungsbereichen viel Sinn und werde versuchen, dies in Zukunft mehr zu gebrauchen. Was mir auch gefallen hat, ist das Arbeiten mit diesem Team. Jeder hatte jeden respektiert und wir haben alle gut arbeiten können.
-###Helmina Jusufi
+### Helmina Jusufi
 Auch Ich habe einige Male in der Schule mit Linux gearbeitet. Zudem haben wir Testserver im Geschäft die ich selber aufsetzen durfte und auf denen ich einiges ausprobieren konnte, somit bin ich vertraut mit einigen Befehlen. Für die Systemsicherheit interssiere ich mich sehr, daher habe ich in diesem Modul viel dazulernen können. Ich kannte Github vorher noch nicht. Ich habe nur davon gehört und in diesem Modul habe ich mich zum ersten Mal richtig damit auseinandergesetzt. Auch von Vagrant habe ich zum ersten Mal gehört und konnte auch dazu neues lernen. Die Unterlagen, welche uns zur Verfügung stehen, haben mir geholfen mich schnell in dieses Modul einzulesen und gleich loszulegen. Das Arbeiten auf der TBZ Cloud empfand ich ebenfalls wie meine Teammitglieder als angenehm.
 
 
