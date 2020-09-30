@@ -100,6 +100,26 @@ Im Geschäft arbeite ich mehrheitlich mit Macs. Deshalb habe ich nicht viel mit 
 Mit den Themen Linux hatte ich schon zuvor zutuhn, doch mit Github oder ähnliche Systeme hatte ich zuvor noch nie gearbeitet. Ich kannte die Grundlagen von MIcroservices oder Docker. Deshalb konnte ich mit meinem Team schon früh ins Projekt starten. Ich habe privat schon mit Linux gearbeitet. Jedoch muss ich sagen, dass ich über eine längere Zeit hinweg nicht mehr damit gearbeitet habe. Daher habe ich einige coole Funnktionen schon vergessen. Mit Github hatte ich am anfang Problem edoch danach gieng es sehr einfach, da ich mir mehrere Tutorials und Dokus angeschaut und durchgelesen habe. Ich habe viel über Container gelernt und selbst gesehen welche Vorteile dies gegen den normalen VM hat. Ich finde Git macht in vielen Anwendungsbereichen viel Sinn und werde versuchen, dies in Zukunft mehr zu gebrauchen. Was mir auch gefallen hat, ist das Arbeiten mit diesem Team. Jeder hatte jeden respektiert und wir haben alle gut arbeiten können.
 ### Helmina Jusufi
 ich wusste am Anfang nicht, was Container oder Docker sind. Deshlab habe ich am Anfang viel mit Muhammed angeschaut. Mit der Zeit haben wir immer mehr verstanden.  Zudem haben wir Testserver im Geschäft die ich selber aufsetzen durfte und auf denen ich einiges ausprobieren konnte, somit bin ich vertraut mit einigen Befehlen. Für die Systemsicherheit interssiere ich mich sehr, daher habe ich in diesem Modul viel dazulernen können. Ich kannte Github vorher noch nicht. Ich habe nur davon gehört und in diesem Modul habe ich mich zum ersten Mal richtig damit auseinandergesetzt. Auch von Vagrant habe ich zum ersten Mal gehört und konnte auch dazu neues lernen. Die Unterlagen, welche uns zur Verfügung stehen, haben mir geholfen mich schnell in dieses Modul einzulesen und gleich loszulegen. Das Arbeiten auf der TBZ Cloud empfand ich ebenfalls wie meine Teammitglieder als angenehm.
+# K3
+## Bestehenden Docker-Container kombinieren
+Eigene Container wurden miteinander Verbunden. Wir haben eine Nexcloud Umgebung aufgebaut mit einem MariaDB Container und einem Nexcloud Container, der Nexcloud Container beinhaltet noch einen Apache2 Dienst um die Webseite anzeigen zu lassen. 
+
+## Backend 
+Als Backend haben wir die MariaDB als Datenbank und den Apache2 Dienst um die Nexcloud Webseite anzeigen zulassen.
+
+## Frontend
+Haben wir den Nexcloud dienst um Daten zum Beispiel auf der Webseite abspeicher zu können. 
+
+## Eingerichtete Umgebung ist dokumentiert
+Folgende Container wurden erstellt
+Docker | Funktion
+------------ | -------------
+Datenbank | Docker mit MariaDB mit der Datenbank für Nexcloud Accounts
+Web | Docker mit Apache2 und Nexcloud Dienst um die webseite anzeigen zu lassen
+
+## Netzwerkplan
+
+
 
 # K5
 ## Reflexion
