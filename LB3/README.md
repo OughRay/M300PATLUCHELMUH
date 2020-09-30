@@ -45,15 +45,15 @@ Kubernetes ist ein Open-Source-System zur Automatisierung der Bereitstellung, Sk
 
 # K1
 Für unsere Umgebung benutzen wir ProxMox VE das auf einem Server bei Luca zu Hause installiert ist. So können wir direkt Container erstellen und haben keine Einschränkungen an Leistung.
-# VirtualBox
+## VirtualBox
 Musste nicht installiert werden, da wir ProxMox benutzen
-# Vagrant
+## Vagrant
 War schon aus der vorherigen LB2 installiert
-# Visualstudio-Code
+## Visualstudio-Code
 Wurde auf den Clients unseres Teams installiert
-# Git-Client
+## Git-Client
 Wurde auf den Clients unseres Teams installiert
-# SSH-Key für Client erstellt
+## SSH-Key für Client erstellt
 1.	SSH Key erstellen
 •	Key wird erstellt
  
