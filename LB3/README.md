@@ -156,6 +156,19 @@ Obwohl ich schon ein wenig Vorwissen hatte, konnte ich in diesem Modul sehr viel
 ### Reflexion Patrick Schwab
 Ich habe für die Zukunft gelernt, dass die Vagrant Files einen grossen Wert haben. Ausserdem weiss ich nun, dass ich im Team mehr Spass am Lernen habe als allein und es nicht darauf ankommt, ob ich mit meinen Freunden in einer Gruppe bin oder mit anderen Mitschülern, die ich weniger gut kenne. Dazu kommt, dass ich viele neue Funktionen kennenlernen durfte im Bezug auf Virtuelle Maschinen, Systemsicherheit und Vagrant Files. Das Arbeiten mit Github hat mir ausserdem auch Spass gemacht, weil man alles für jeden verfügbar hat. Ich konnte mein vorheriges Wissen in dieser LB3 gut miteinbeziehen. Das Team war immer da bei Fragen.
 
+# K5
+## Umfangreiche Vernetzung der Container-Infrastruktur (Ansätze für reale Nutzungszenarien)
+Alle unsere Container sind miteinander verlinkt, dies sieht man auch im Vagrant File. Der Der Nextcloud Container holt vom DB Container die Datenbank mit den Credentials der DB. Ausserdem holt unser MailDEV Container vom DB Container die Datenbank und dieser lässt sich über den phpMyAdmin Container verwalten.
+## Image-Bereitstellung
+•	Wir haben einen Account auf DockerHub erstelt
+•	Der Dockerhub Account wurde mit Github verbunden
+•	Repository auf DockerHub erstellt mit dem Namen: 
+## Continuous Integration
+Definition auf RedHat.com
+`„CI“ bedeutet Continuous Integration, also der Automatisierungsprozess für Entwickler. Bei einer erfolgreichen CI werden regelmäßig neue Codeänderungen für Apps entwickelt, geprüft und in einem gemeinsamen Repository zusammengeführt. Damit soll der Konflikt verhindert werden, den zu viele Branches einer App verursachen können, wenn sie zeitgleich entwickelt werden.`
+Continuous Integration sollte bei unserer Umgebung kein Problem sein, da wir aber nicht vorhaben diese Umgebung sehr lang weiter laufen zu lassen lohnt es sich hier nicht. Falls man aber eine langlebige Umgebung hat würde es sich sicher lohnen.
+
+
 
 ### Testfall für Apache 2 
 
