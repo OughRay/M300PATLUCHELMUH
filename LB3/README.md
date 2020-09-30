@@ -134,7 +134,7 @@ Datenbank | Docker mit MariaDB mit der Datenbank für Nexcloud Accounts
 Web | Docker mit Apache2 und Nexcloud Dienst um die webseite anzeigen zu lassen
 
 ## Netzwerkplan
-
+![](LB3/M300_Plan.png)
 
 
 # K5
