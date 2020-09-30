@@ -19,27 +19,6 @@ In diesem Dokument beschreiben wir die Arbeit von der LB3. Bevor wir mit dem Pro
 # Was ist Docker?
 Docker ist eine Freie Software zur Isolierung von Anwendungen mit Hilfe von Containervirtualisierung. Docker vereinfacht die Bereitstellung von Anwendungen, weil sich Container, die alle nötigen Pakete enthalten, leicht als Dateien transportieren und installieren lassen. Die Docker-Technologie verwendet den Linux Kernel und seine Funktionen wie Cgroups und namespaces, um Prozesse zu isolieren, damit diese unabhängig voneinander ausgeführt werden können. Diese Unabhängigkeit ist der Zweck der Container – die Fähigkeit, mehrere Prozesse und Apps getrennt voneinander betreiben zu können. So wird Ihre Infrastruktur besser genutzt und gleichzeitig die Sicherheit bewahrt, die sich aus der Arbeit mit getrennten Systemen ergibt.
 
-## Docker Befehle
-|Befehl  |Beschreibung
-|--------|----------
-|docker attach|	Attach local standard input, output, and error streams to a running container
-|docker build|	Build an image from a Dockerfile                               
-|docker builder|	Manage builds                                                                   
-|docker commit|	Create a new image from a container’s changes                                                                         
-|docker config|	Manage Docker configs                                                                    
-|docker create|	Create a new container
-|docker images|	List images
-|docker info| Display system-wide information
-|docker import|Import the contents from a tarball to create a filesystem image
-|docker kill|Kill one or more running containers
-|docker network|Manage networks
-|docker pause|Pause all processes within one or more containers
-|docker ps|List containers
-|docker pull|Pull an image or a repository from a registry
-|docker rename|Rename a container
-|docker restart|docker restart
-|docker stop|Stop one or more running containers
-|docker start|Start one or more stopped containers
 
 # Was ist Kubernets
 Kubernetes ist ein Open-Source-System zur Automatisierung der Bereitstellung, Skalierung und Verwaltung von Container-Anwendungen, das ursprünglich von Google entworfen und an die Cloud Native Computing Foundation gespendet wurde. Es zielt darauf ab, eine Plattform für das automatisierte Bespielen, Skalieren und Warten von Anwendungscontainern auf verteilten Hosts zu liefern. Es unterstützt eine Reihe von Container-Tools, einschliesslich Docker. Google hat das Kubernetes-Projekt 2014 als Open-Source-Projekt zur Verfügung gestellt. Kubernetes baut auf anderthalb Jahrzehnten Erfahrung auf, die Google mit der Ausführung von Produktions-Workloads in großem Maßstab hat, kombiniert mit den besten Ideen und Praktiken der Community.
@@ -104,10 +83,10 @@ ich wusste am Anfang nicht, was Container oder Docker sind. Deshlab habe ich am 
 ## Bestehenden Docker-Container kombinieren
 Eigene Container wurden miteinander Verbunden. Wir haben eine Nexcloud Umgebung aufgebaut mit einem MariaDB Container und einem Nexcloud Container, der Nexcloud Container beinhaltet noch einen Apache2 Dienst um die Webseite anzeigen zu lassen. 
 
-## Backend 
+## Bestehende Container als Backend
 Als Backend haben wir die MariaDB als Datenbank und den Apache2 Dienst um die Nexcloud Webseite anzeigen zulassen.
 
-## Frontend
+## Bestehende Container als Frontend
 Haben wir den Nexcloud dienst um Daten zum Beispiel auf der Webseite abspeicher zu können. 
 
 ## Volumes persistente Datenablage
@@ -126,6 +105,29 @@ Ein neues Verzeichnis sollte für das Sichern der Daten . Um dies zu machen werd
 * `-v db:/var/lib/mysql \`
 * `mariadb`
 
+## Docker Befehle
+|Befehl  |Beschreibung
+|--------|----------
+|docker attach|	Attach local standard input, output, and error streams to a running container
+|docker build|	Build an image from a Dockerfile                               
+|docker builder|	Manage builds                                                                   
+|docker commit|	Create a new image from a container’s changes                                                                         
+|docker config|	Manage Docker configs                                                                    
+|docker create|	Create a new container
+|docker images|	List images
+|docker info| Display system-wide information
+|docker import|Import the contents from a tarball to create a filesystem image
+|docker kill|Kill one or more running containers
+|docker network|Manage networks
+|docker pause|Pause all processes within one or more containers
+|docker ps|List containers
+|docker pull|Pull an image or a repository from a registry
+|docker rename|Rename a container
+|docker restart|docker restart
+|docker stop|Stop one or more running containers
+|docker start|Start one or more stopped containers
+
+
 ## Eingerichtete Umgebung ist dokumentiert
 Folgende Container wurden erstellt
 Docker | Funktion
@@ -136,7 +138,22 @@ Web | Docker mit Apache2 und Nexcloud Dienst um die webseite anzeigen zu lassen
 ## Netzwerkplan
 ![](M300_Plan.png)
 
+## Testfälle
 
+### Testfall für Apache 2 
+
+| Die zu testende Aktion                                     | Erwartete Ausgabe/Aktion                                      | Tatsächliche Ausgabe/Aktion                     | 
+| -----------------------                                    | -------------------------                                     |----------------------------                     |
+| Im Browser auf 10.0.0.16 verbinden                         | Apache2 Default Page öffnet sich                  | Apache2 Default Page erscheint     |
+| Docker file ausführen                     | Docker Container wird erstellt                        |Docker Container wurde erfolgreich erstellt          |
+| In den Container verbinden             | verbindung mit dem Container wird erstellt              |verbindung mit dem Container wurde erfolgreich erstellt |
+
+
+### Testfall für Nextcloud 
+
+| Die zu testende Aktion                                     | Erwartete Ausgabe/Aktion                                      | Tatsächliche Ausgabe/Aktion                     | 
+| -----------------------                                    | -------------------------                                     |----------------------------                     |
+|MariaDb Conatainer installiert |
 # K5
 ## Reflexion
 Hier wird über unsere Arbeit reflektiert
@@ -170,17 +187,4 @@ Continuous Integration sollte bei unserer Umgebung kein Problem sein, da wir abe
 
 
 
-### Testfall für Apache 2 
 
-| Die zu testende Aktion                                     | Erwartete Ausgabe/Aktion                                      | Tatsächliche Ausgabe/Aktion                     | 
-| -----------------------                                    | -------------------------                                     |----------------------------                     |
-| Im Browser auf 10.0.0.16 verbinden                         | Apache2 Default Page öffnet sich                  | Apache2 Default Page erscheint     |
-| Docker file ausführen                     | Docker Container wird erstellt                        |Docker Container wurde erfolgreich erstellt          |
-| In den Container verbinden             | verbindung mit dem Container wird erstellt              |verbindung mit dem Container wurde erfolgreich erstellt |
-
-
-### Testfall für Nextcloud 
-
-| Die zu testende Aktion                                     | Erwartete Ausgabe/Aktion                                      | Tatsächliche Ausgabe/Aktion                     | 
-| -----------------------                                    | -------------------------                                     |----------------------------                     |
-|
