@@ -156,7 +156,7 @@ Obwohl ich schon ein wenig Vorwissen hatte, konnte ich in diesem Modul sehr viel
 ### Reflexion Patrick Schwab
 Ich habe für die Zukunft gelernt, dass die Vagrant Files einen grossen Wert haben. Ausserdem weiss ich nun, dass ich im Team mehr Spass am Lernen habe als allein und es nicht darauf ankommt, ob ich mit meinen Freunden in einer Gruppe bin oder mit anderen Mitschülern, die ich weniger gut kenne. Dazu kommt, dass ich viele neue Funktionen kennenlernen durfte im Bezug auf Virtuelle Maschinen, Systemsicherheit und Vagrant Files. Das Arbeiten mit Github hat mir ausserdem auch Spass gemacht, weil man alles für jeden verfügbar hat. Ich konnte mein vorheriges Wissen in dieser LB3 gut miteinbeziehen. Das Team war immer da bei Fragen.
 
-# K5
+# K6
 ## Umfangreiche Vernetzung der Container-Infrastruktur (Ansätze für reale Nutzungszenarien)
 Alle unsere Container sind miteinander verlinkt, dies sieht man auch im Vagrant File. Der Der Nextcloud Container holt vom DB Container die Datenbank mit den Credentials der DB. Ausserdem holt unser MailDEV Container vom DB Container die Datenbank und dieser lässt sich über den phpMyAdmin Container verwalten.
 ## Image-Bereitstellung
