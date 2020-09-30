@@ -6,11 +6,13 @@ In diesem Dokument beschreiben wir die Arbeit von der LB3.
 # Inhaltsverzeichnis
 * Was ist Docker?
     * Docker Befehle
-* Umgebung
-* Netzwerkplan für 
 * Was ist Kubernetes
+* Umgebung
+* Netzwerkplan für Nextcloud
 * Unser Docker Projekt
-* Unser Kubernetes Projekt
+* Testfälle Apache 2
+* Testfälle Mail2
+* Testfälle Nextcloud
 
 
 # Was ist Docker?
@@ -37,4 +39,7 @@ Docker ist eine Freie Software zur Isolierung von Anwendungen mit Hilfe von Cont
 |docker restart|docker restart
 |docker stop|Stop one or more running containers
 |docker start|Start one or more stopped containers
+
+# Was ist Kubernets
+Kubernetes ist ein Open-Source-System zur Automatisierung der Bereitstellung, Skalierung und Verwaltung von Container-Anwendungen, das ursprünglich von Google entworfen und an die Cloud Native Computing Foundation gespendet wurde. Es zielt darauf ab, eine Plattform für das automatisierte Bespielen, Skalieren und Warten von Anwendungscontainern auf verteilten Hosts zu liefern. Es unterstützt eine Reihe von Container-Tools, einschliesslich Docker.
 
