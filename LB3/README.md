@@ -110,6 +110,23 @@ Als Backend haben wir die MariaDB als Datenbank und den Apache2 Dienst um die Ne
 ## Frontend
 Haben wir den Nexcloud dienst um Daten zum Beispiel auf der Webseite abspeicher zu können. 
 
+## Volumes persistente Datenablage
+Die ganzen Daten des Nextcloud Docker Container (File-Uploads) sind in /var/www/html gesichert
+Der Docker Dienst wird alle Daten in den Volumes speichern /var/lib/docker/volumes/.. 
+Das heisst sobald der Docker Container ausgeschaltet wird, warden alle Daten verloren.
+Ein neues Verzeichnis sollte für das Sichern der Daten . Um dies zu machen werden wir ein Verzeichnis für den Nextcloud Container und ein Verzeichnis für die DB einrichten.
+Nextcloud:
+•	`/var/www/html/` Der Ordner wo alle Nextcloud Daten liegen werden
+•	`$ docker run -d \
+•	-v nextcloud:/var/www/html \
+nextcloud`
+Datenbank:
+•	`/var/lib/mysql MySQL / MariaDB Daten
+•	$ docker run -d \
+•	-v db:/var/lib/mysql \
+mariadb`
+
+
 ## Eingerichtete Umgebung ist dokumentiert
 Folgende Container wurden erstellt
 Docker | Funktion
