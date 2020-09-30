@@ -116,10 +116,10 @@ Der Docker Dienst wird alle Daten in den Volumes speichern /var/lib/docker/volum
 Das heisst sobald der Docker Container ausgeschaltet wird, warden alle Daten verloren.
 Ein neues Verzeichnis sollte für das Sichern der Daten . Um dies zu machen werden wir ein Verzeichnis für den Nextcloud Container und ein Verzeichnis für die DB einrichten.
 Nextcloud:
-•	`/var/www/html/` Der Ordner wo alle Nextcloud Daten liegen werden
-•	`$ docker run -d \
-•	-v nextcloud:/var/www/html \
-nextcloud`
+* `/var/www/html/` Der Ordner wo alle Nextcloud Daten liegen werden
+* `$ docker run -d \
+* -v nextcloud:/var/www/html \
+* nextcloud`
 Datenbank:
 •	`/var/lib/mysql MySQL / MariaDB Daten
 •	$ docker run -d \
