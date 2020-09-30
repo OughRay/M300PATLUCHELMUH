@@ -179,7 +179,7 @@ Alle unsere Container sind miteinander verlinkt, dies sieht man auch im Vagrant 
 ## Image-Bereitstellung
 •	Wir haben einen Account auf DockerHub erstelt
 •	Der Dockerhub Account wurde mit Github verbunden
-•	Repository auf DockerHub erstellt mit dem Namen: 
+•	Repository auf DockerHub erstellt mit dem Namen: psychodellic/m300_patluchelmuh
 ## Continuous Integration
 Definition auf RedHat.com
 `„CI“ bedeutet Continuous Integration, also der Automatisierungsprozess für Entwickler. Bei einer erfolgreichen CI werden regelmäßig neue Codeänderungen für Apps entwickelt, geprüft und in einem gemeinsamen Repository zusammengeführt. Damit soll der Konflikt verhindert werden, den zu viele Branches einer App verursachen können, wenn sie zeitgleich entwickelt werden.`
