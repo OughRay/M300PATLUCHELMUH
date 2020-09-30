@@ -2,6 +2,7 @@
 
 ##  Inhaltsverzeichnis
 * Testfälle Apache 2
+* Testfälle Mail2
 * Testfälle Nextcloud
 
 
