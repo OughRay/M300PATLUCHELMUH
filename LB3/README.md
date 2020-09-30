@@ -153,7 +153,9 @@ Web | Docker mit Apache2 und Nexcloud Dienst um die webseite anzeigen zu lassen
 
 | Die zu testende Aktion                                     | Erwartete Ausgabe/Aktion                                      | Tatsächliche Ausgabe/Aktion                     | 
 | -----------------------                                    | -------------------------                                     |----------------------------                     |
-|MariaDb Conatainer installiert |
+|MariaDb Conatainer installiert |   Container erfolgreich erstellen| Container wurde erfolgreich erstellt
+|Datenbank verfügbar| Datenbank ist erreichbar| Datenbank ist erreichbar
+
 # K5
 ## Reflexion
 Hier wird über unsere Arbeit reflektiert
