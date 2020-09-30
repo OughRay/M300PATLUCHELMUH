@@ -53,8 +53,8 @@ Kubernetes ist ein Open-Source-System zur Automatisierung der Bereitstellung, Sk
 | In den Container verbinden             | verbindung mit dem Container wird erstellt              |verbindung mit dem Container wurde erfolgreich erstellt |
 
 
-### Testfall für Minecraft 
+### Testfall für Nextcloud 
 
 | Die zu testende Aktion                                     | Erwartete Ausgabe/Aktion                                      | Tatsächliche Ausgabe/Aktion                     | 
 | -----------------------                                    | -------------------------                                     |----------------------------                     |
-
+|
