@@ -9,7 +9,7 @@ In diesem Dokument beschreiben wir die Arbeit von der LB3.
 * Was ist Kubernetes
 * Umgebung
 * Netzwerkplan für Nextcloud
-* Unser Docker Projekt
+* Unsere Docker Projekte
 * Testfälle Apache 2
 * Testfälle Mail2
 * Testfälle Nextcloud
