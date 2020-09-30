@@ -147,6 +147,8 @@ Web | Docker mit Apache2 und Nexcloud Dienst um die webseite anzeigen zu lassen
 | Im Browser auf 10.0.0.16 verbinden                         | Apache2 Default Page öffnet sich                  | Apache2 Default Page erscheint     |
 | Docker file ausführen                     | Docker Container wird erstellt                        |Docker Container wurde erfolgreich erstellt          |
 | In den Container verbinden             | verbindung mit dem Container wird erstellt              |verbindung mit dem Container wurde erfolgreich erstellt |
+| Nexcloud Webseite erreichbar über Webseite| Man kann die webseit emit der IP 10.0.0.16:8080 erreichen| Man kann die Webseite öffnen und sieht die Nexcloud login Page
+
 
 
 ### Testfall für Nextcloud 
