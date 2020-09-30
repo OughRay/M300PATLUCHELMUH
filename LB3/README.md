@@ -43,10 +43,7 @@ Docker ist eine Freie Software zur Isolierung von Anwendungen mit Hilfe von Cont
 # Was ist Kubernets
 Kubernetes ist ein Open-Source-System zur Automatisierung der Bereitstellung, Skalierung und Verwaltung von Container-Anwendungen, das ursprünglich von Google entworfen und an die Cloud Native Computing Foundation gespendet wurde. Es zielt darauf ab, eine Plattform für das automatisierte Bespielen, Skalieren und Warten von Anwendungscontainern auf verteilten Hosts zu liefern. Es unterstützt eine Reihe von Container-Tools, einschliesslich Docker.
 
-# Umgebung K1
-
-K1
-# Umgebung
+# K1
 Für unsere Umgebung benutzen wir ProxMox VE das auf einem Server bei Luca zu Hause installiert ist. So können wir direkt Container erstellen und haben keine Einschränkungen an Leistung.
 # VirtualBox
 Musste nicht installiert werden, da wir ProxMox benutzen
