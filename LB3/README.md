@@ -43,6 +43,10 @@ Docker ist eine Freie Software zur Isolierung von Anwendungen mit Hilfe von Cont
 # Was ist Kubernets
 Kubernetes ist ein Open-Source-System zur Automatisierung der Bereitstellung, Skalierung und Verwaltung von Container-Anwendungen, das ursprünglich von Google entworfen und an die Cloud Native Computing Foundation gespendet wurde. Es zielt darauf ab, eine Plattform für das automatisierte Bespielen, Skalieren und Warten von Anwendungscontainern auf verteilten Hosts zu liefern. Es unterstützt eine Reihe von Container-Tools, einschliesslich Docker.
 
+# Umgebung K1
+
+Wir haben auf dem 
+
 
 ### Testfall für Apache 2 
 
